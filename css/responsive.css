@@ -1,0 +1,975 @@
+@media (min-width:320px) and (max-width:575px){
+    nav button i{
+        color: #fff;
+    }
+
+    nav ul{
+        background: #000;
+        text-align: center;
+    }
+
+    
+    nav ul li a::after{
+        display: none;
+    }
+
+    nav ul li a {
+        margin-left: 0;
+    }
+
+    #banner-part .overlay h2 {
+        font-size: 30px;
+    }
+
+    #banner-part .overlay h1 {
+        font-size: 50px;
+    }
+
+    #banner-part .overlay a {
+        margin: 0 4px 0 10px;
+    }
+
+    #banner-part .prevrt {
+        top: 80%;
+        left: 80px;
+    }
+
+    #banner-part .nextr {
+        top: 80%;
+        right: 80px;
+    }
+
+    #banner-part .overlay {
+        padding: 150px 0;
+    }
+
+    #about-part .title p {
+        padding: 0px 0;
+    }
+
+    #about-part .round{
+        display: none;
+    }
+
+    #about-part .item1 {
+        padding: 20px 0px;
+    }
+
+    #about-part .item1 i{
+        display: none;
+    }
+
+    #about-part .item1::after {
+        display: none;
+    }
+
+    #about-part .item2 {
+        text-align: center;
+        margin-top: 0;
+    }
+
+    #about-part .item2 p {
+        width: auto;
+    }
+
+    #about-part .item2 i{
+        display: none;
+    }
+
+    #about-part .item2::after{
+        display: none;
+    }
+
+    #about-part .item3 i{
+        display: none;
+    }
+
+    #about-part .item3::after{
+        display: none;
+    }
+
+    #about-part .item4 i{
+        display: none;
+    }
+
+    #about-part .item4::after{
+        display: none;
+    }
+
+    #about-part .item3 {
+        text-align: center;
+    }
+
+    #about-part .item3 p {
+        width: auto;
+    }
+
+    #about-part .item4 {
+        padding: 20px 0px;
+    }
+
+    #port-part{
+        clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
+    }
+
+    #port-part .overlay{
+        clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
+        padding: 110px 0px;
+    }
+
+    #port-part .title p {
+        padding: 0 0;
+    }
+
+    #port-part .item {
+        margin-left: 0;
+    }
+
+    #service-part .line{
+        display: none;
+    }
+
+    #service-part .title p{
+        padding: 0 0;
+    }
+
+    #service-part .service{
+        flex-direction: column;
+    }
+
+    #service-part .service:nth-child(2n+1){
+        flex-direction: column;
+    }
+
+    #service-part .service .title {
+        width: 100%;
+        justify-content: center;
+    }
+
+    #service-part .service:nth-child(2n+1) .title{
+        justify-content: center;
+    }
+
+    #service-part .service .img {
+        width: 100%;
+    }
+
+    #service-part .service .non::after{
+        display: none;
+    }
+
+    #service-part .service .ton::after{
+        display: none;
+    }
+
+    #service-part .service .details {
+        width: 100%;
+        padding: 20px;
+        margin-top: 27px;
+    }
+
+    .prev {
+        top: 0;
+        z-index: 2;
+    }
+
+    #testi-part{
+        clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
+    }
+
+    #testi-part .overlay {
+        padding: 80px 0;
+    }
+
+    #testi-part .line{
+        display: none;
+    }
+
+    #testi-part .prev {
+        top: 89px;
+        left: 0;
+        transform: translateX(0) rotate(-88deg);
+    }
+
+    #testi-part .next {
+        bottom: 80px;
+        left: 87%;
+        transform: translateX(0) rotate(-88deg);
+    }
+
+    #testi-part .details::after{
+        display: none;
+    }
+
+    #testi-part .details p {
+        width: auto;
+    }
+
+    #testi-part .details {
+        margin-left: 10px;
+        margin-top: 0;
+    }
+
+    #testi-part .details h6 {
+        padding-bottom: 14px;
+        padding-top: 0px;
+    }
+
+    #price-part .title p{
+        padding: 0 0;
+    }
+
+    #price-part .main {
+        flex-direction: column;
+    }
+
+    #price-part .one {
+        width: 100%;
+        margin: 15px 0;
+    }
+
+    #counter-part .overlay .item p {
+        font-size: 14px;
+    }
+
+    #counter-part .overlay .item {
+        margin: 10px 0;
+    }
+
+    #counter-part .roate {
+        transform: rotate(0);
+    }
+
+    #counter-part .overlay .item h2 {
+        transform: rotate(0deg);
+    }
+    #counter-part .overlay .item p {
+        transform: rotate(0deg);
+    }
+
+    #counter-part {
+        clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
+    }
+
+    #counter-part .overlay {
+        width: 100%;
+        height: 100%;
+        background: rgba(0, 0, 0, .7);
+        margin: auto 0;
+        padding: 30px 0;
+    }
+
+    #team-part .title p{
+        padding: 0 0;
+    }
+
+    #sponsor-part {
+        clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
+    }
+
+    #sponsor-part .rotater {
+        transform: rotate(0deg);
+    }
+
+    footer .logo {
+        transform: rotate(0deg);
+    }
+
+    footer .details .item {
+        border-right: 0;
+    }
+/* ================= */
+}
+
+@media (min-width:576px) and (max-width:767px){
+    nav button i{
+        color: #fff;
+    }
+
+    nav ul{
+        background: #000;
+        text-align: center;
+    }
+
+    
+    nav ul li a::after{
+        display: none;
+    }
+
+    nav ul li a {
+        margin-left: 0;
+    }
+
+    #banner-part .overlay h2 {
+        font-size: 30px;
+    }
+
+    #banner-part .overlay h1 {
+        font-size: 50px;
+    }
+
+    #banner-part .overlay a {
+        margin: 0 4px 0 10px;
+    }
+
+    #banner-part .prevrt {
+        top: 80%;
+        left: 80px;
+    }
+
+    #banner-part .nextr {
+        top: 80%;
+        right: 80px;
+    }
+
+    #banner-part .overlay {
+        padding: 150px 0;
+    }
+
+    #about-part .title p {
+        padding: 0px 0;
+    }
+
+    #about-part .round{
+        display: none;
+    }
+
+    #about-part .item1 {
+        padding: 20px 0px;
+    }
+
+    #about-part .item1 i{
+        display: none;
+    }
+
+    #about-part .item1::after {
+        display: none;
+    }
+
+    #about-part .item2 {
+        text-align: center;
+        margin-top: 0;
+    }
+
+    #about-part .item2 p {
+        width: auto;
+    }
+
+    #about-part .item2 i{
+        display: none;
+    }
+
+    #about-part .item2::after{
+        display: none;
+    }
+
+    #about-part .item3 i{
+        display: none;
+    }
+
+    #about-part .item3::after{
+        display: none;
+    }
+
+    #about-part .item4 i{
+        display: none;
+    }
+
+    #about-part .item4::after{
+        display: none;
+    }
+
+    #about-part .item3 {
+        text-align: center;
+    }
+
+    #about-part .item3 p {
+        width: auto;
+    }
+
+    #about-part .item4 {
+        padding: 20px 0px;
+    }
+
+    #port-part{
+        clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
+    }
+
+    #port-part .overlay{
+        clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
+        padding: 110px 0px;
+    }
+
+    #port-part .title p {
+        padding: 0 0;
+    }
+
+    #port-part .item {
+        margin-left: 0;
+    }
+
+    #service-part .line{
+        display: none;
+    }
+
+    #service-part .title p{
+        padding: 0 0;
+    }
+
+    #service-part .service{
+        flex-direction: column;
+    }
+
+    #service-part .service:nth-child(2n+1){
+        flex-direction: column;
+    }
+
+    #service-part .service .title {
+        width: 100%;
+        justify-content: center;
+    }
+
+    #service-part .service:nth-child(2n+1) .title{
+        justify-content: center;
+    }
+
+    #service-part .service .img {
+        width: 100%;
+    }
+
+    #service-part .service .non::after{
+        display: none;
+    }
+
+    #service-part .service .ton::after{
+        display: none;
+    }
+
+    #service-part .service .details {
+        width: 100%;
+        padding: 20px;
+        margin-top: 27px;
+    }
+
+    .prev {
+        top: 0;
+        z-index: 2;
+    }
+
+    #testi-part{
+        clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
+    }
+
+    #testi-part .overlay {
+        padding: 80px 0;
+    }
+
+    #testi-part .line{
+        display: none;
+    }
+
+    #testi-part .prev {
+        top: 101px;
+        left: -14px;
+        transform: translateX(0) rotate(-88deg);
+    }
+
+    #testi-part .next {
+        bottom: 80px;
+        left: 96%;
+        transform: translateX(0) rotate(-88deg);
+    }
+
+    #testi-part .details::after {
+        top: 0;
+        left: 50%;
+    }
+
+    #testi-part .details p {
+        width: auto;
+    }
+
+    #testi-part .details {
+        margin-left: 10px;
+        margin-top: 29px;
+    }
+
+    #testi-part .details h6 {
+        padding-bottom: 14px;
+        padding-top: 0px;
+    }
+
+    #price-part .title p{
+        padding: 0 0;
+    }
+
+    #price-part .main {
+        flex-direction: column;
+    }
+
+    #price-part .one {
+        width: 100%;
+        margin: 15px 0;
+    }
+
+    #counter-part .overlay .item p {
+        font-size: 14px;
+    }
+
+    #counter-part .overlay .item {
+        margin: 10px 0;
+    }
+
+    #counter-part .roate {
+        transform: rotate(0);
+    }
+
+    #counter-part .overlay .item h2 {
+        transform: rotate(0deg);
+    }
+    #counter-part .overlay .item p {
+        transform: rotate(0deg);
+    }
+
+    #counter-part {
+        clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
+    }
+
+    #counter-part .overlay {
+        width: 100%;
+        height: 100%;
+        background: rgba(0, 0, 0, .7);
+        margin: auto 0;
+        padding: 30px 0;
+    }
+
+    #team-part .title p{
+        padding: 0 0;
+    }
+
+    #sponsor-part {
+        clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
+    }
+
+    #sponsor-part .rotater {
+        transform: rotate(0deg);
+    }
+
+    footer .logo {
+        transform: rotate(0deg);
+    }
+
+    footer .details .item {
+        border-right: 0;
+    }
+/* ================= */
+}
+
+@media (min-width:768px) and (max-width:991px){
+    nav button i{
+        color: #fff;
+    }
+
+    nav ul{
+        background: #000;
+        text-align: center;
+    }
+
+    
+    nav ul li a::after{
+        display: none;
+    }
+
+    nav ul li a {
+        margin-left: 0;
+    }
+
+    #about-part .title p {
+        padding: 0px 0;
+    }
+
+    #about-part .round{
+        display: none;
+    }
+
+    #about-part .item1 {
+        padding: 20px 0px;
+    }
+
+    #about-part .item1 i{
+        display: none;
+    }
+
+    #about-part .item1::after {
+        display: none;
+    }
+
+    #about-part .item2 {
+        text-align: center;
+        margin-top: 0;
+    }
+
+    #about-part .item2 p {
+        width: auto;
+    }
+
+    #about-part .item2 i{
+        display: none;
+    }
+
+    #about-part .item2::after{
+        display: none;
+    }
+
+    #about-part .item3 i{
+        display: none;
+    }
+
+    #about-part .item3::after{
+        display: none;
+    }
+
+    #about-part .item4 i{
+        display: none;
+    }
+
+    #about-part .item4::after{
+        display: none;
+    }
+
+    #about-part .item3 {
+        text-align: center;
+    }
+
+    #about-part .item3 p {
+        width: auto;
+    }
+
+    #about-part .item4 {
+        padding: 20px 0px;
+    }
+
+    #port-part{
+        clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
+    }
+
+    #port-part .overlay{
+        clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
+        padding: 110px 0px;
+    }
+
+    #port-part .title p {
+        padding: 0 0;
+    }
+
+    #port-part .item {
+        margin-left: 0;
+    }
+
+    #service-part .line{
+        display: none;
+    }
+
+    #service-part .title p{
+        padding: 0 0;
+    }
+
+    #service-part .service{
+        flex-direction: column;
+    }
+
+    #service-part .service:nth-child(2n+1){
+        flex-direction: column;
+    }
+
+    #service-part .service .title {
+        width: 100%;
+        justify-content: center;
+    }
+
+    #service-part .service:nth-child(2n+1) .title{
+        justify-content: center;
+    }
+
+    #service-part .service .img {
+        width: 100%;
+    }
+
+    #service-part .service .non::after{
+        display: none;
+    }
+
+    #service-part .service .ton::after{
+        display: none;
+    }
+
+    #service-part .service .details {
+        width: 100%;
+        padding: 20px;
+        margin-top: 27px;
+    }
+
+    .prev {
+        top: 0;
+        z-index: 2;
+    }
+
+    #testi-part{
+        clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
+    }
+
+    #testi-part .overlay {
+        padding: 80px 0;
+    }
+
+    #testi-part .line{
+        display: none;
+    }
+
+    #testi-part .prev {
+        top: 101px;
+        left: -14px;
+        transform: translateX(0) rotate(-88deg);
+    }
+
+    #testi-part .next {
+        bottom: 80px;
+        left: 96%;
+        transform: translateX(0) rotate(-88deg);
+    }
+
+    #testi-part .details::after {
+        top: 0;
+        left: 50%;
+    }
+
+    #testi-part .details p {
+        width: auto;
+    }
+
+    #testi-part .details {
+        margin-left: 10px;
+        margin-top: 29px;
+    }
+
+    #testi-part .details h6 {
+        padding-bottom: 14px;
+        padding-top: 0px;
+    }
+
+    #price-part .title p{
+        padding: 0 0;
+    }
+
+
+    #counter-part .overlay .item p {
+        font-size: 12px;
+    }
+
+    #counter-part .overlay .item {
+        margin: 10px 0;
+    }
+
+    #counter-part .roate {
+        transform: rotate(0);
+    }
+
+    #counter-part .overlay .item h2 {
+        transform: rotate(0deg);
+    }
+    #counter-part .overlay .item p {
+        transform: rotate(0deg);
+    }
+
+    #counter-part {
+        clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
+    }
+
+    #counter-part .overlay {
+        width: 100%;
+        height: 100%;
+        background: rgba(0, 0, 0, .7);
+        margin: auto 0;
+        padding: 30px 0;
+    }
+
+    #team-part .title p{
+        padding: 0 0;
+    }
+
+    #sponsor-part {
+        clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
+    }
+
+    #sponsor-part .rotater {
+        transform: rotate(0deg);
+    }
+
+    footer .logo {
+        transform: rotate(0deg);
+    }
+
+    footer .details .item {
+        border-right: 0;
+    }
+/* ================= */
+}
+
+@media (min-width:992px) and (max-width:1199px){
+    
+
+    #about-part .title p {
+        padding: 0px 0;
+    }
+
+    #about-part .item1 p{
+        padding: 0;
+    }
+    #about-part .item2 p{
+        width: auto;
+    }
+    #about-part .item3 p{
+        width: auto;
+    }
+    #about-part .item4 p{
+        padding: 0;
+    }
+
+    #about-part .round {
+        width: 300px;
+        height: 300px;
+    }
+
+    #about-part .round .img {
+        width: 270px;
+        height: 270px;
+    }
+
+    #about-part .item1 i {
+        top: 238px;
+        left: 137px;
+    }
+
+    #about-part .item2 {
+        margin-top: 40px;
+        padding: 8px 0;
+    }
+
+    #about-part .item2::after {
+        right: 10px;
+    }
+
+    #about-part .item2 i {
+        top: 91px;
+        left: 312px;
+    }
+
+    #about-part .item3 {
+        margin-top: 40px;
+        padding: 8px 0;
+    }
+
+    #about-part .item3::after {
+        left: 14px;
+    }
+
+    #about-part .item3 i {
+        top: 92px;
+        left: -30px;
+    }
+
+    #about-part .item4 i {
+        left: 138px;
+    }
+
+    #port-part{
+        clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
+    }
+
+    #port-part .overlay{
+        clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
+        padding: 110px 0px;
+    }
+
+    #port-part .title p {
+        padding: 0 0;
+    }
+
+    #port-part .item {
+        margin-left: 0;
+    }
+
+    #service-part .line {
+        height: 932px;
+        top: 240px;
+    }
+
+    .prev {
+        top: 0;
+        z-index: 2;
+    }
+
+    #testi-part .details p {
+        width: auto;
+    }
+    #testi-part .line {
+        left: 94px;
+    }
+
+    #price-part .title p{
+        padding: 0 0;
+    }
+
+
+    #counter-part .overlay .item p {
+        font-size: 12px;
+    }
+
+    #counter-part .overlay .item {
+        margin: 10px 0;
+    }
+
+    #counter-part .roate {
+        transform: rotate(0);
+    }
+
+    #counter-part .overlay .item h2 {
+        transform: rotate(0deg);
+    }
+    #counter-part .overlay .item p {
+        transform: rotate(0deg);
+    }
+
+    #counter-part {
+        clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
+    }
+
+    #counter-part .overlay {
+        width: 100%;
+        height: 100%;
+        background: rgba(0, 0, 0, .7);
+        margin: auto 0;
+        padding: 30px 0;
+    }
+
+    #team-part .title p{
+        padding: 0 0;
+    }
+
+    #sponsor-part {
+        clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
+    }
+
+    #sponsor-part .rotater {
+        transform: rotate(0deg);
+    }
+
+    footer .logo {
+        transform: rotate(0deg);
+    }
+
+    footer .details .item {
+        border-right: 0;
+    }
+/* ================= */
+}
